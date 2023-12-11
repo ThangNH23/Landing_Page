@@ -22,8 +22,8 @@ a .active {
 .home-section {
   background: #fffbef;
   backdrop-filter: blur(80px);
-  /* width: 100vw;
-  height: 100vh; */
+  width: 100%;
+  height: 100%;
 }
 header {
   display: flex;
@@ -46,7 +46,8 @@ nav {
   background: none;
   border: none;
 }
-#SignUp, #start-btn{
+#SignUp,
+#start-btn {
   background-color: #7557ff;
   color: #fff;
   border: #7557ff;
@@ -55,9 +56,12 @@ nav {
 
 .content {
   display: flex;
-  margin: 100px 135px;
+  margin: 6rem;
   gap: 167px;
   align-items: center;
+}
+.service-section{
+  margin: 6rem;
 }
 .title {
   font-size: 60px;
@@ -68,14 +72,14 @@ nav {
   font-size: 70px;
 }
 .subtitle {
-  margin: 18px 0px 38px 0px; 
+  margin: 18px 0px 38px 0px;
   color: #605d6c;
   font-weight: 400;
 }
 .pricing {
   display: flex;
   padding: 5rem 3rem;
-  gap: 10em
+  gap: 10em;
 }
 .group-num {
   display: flex;
@@ -83,8 +87,8 @@ nav {
 }
 .number {
   border-radius: 29px;
-  color:#fff ;
-  background-color: #FFC631;
+  color: #fff;
+  background-color: #ffc631;
   width: 58px;
   height: 58px;
   text-align: center;
@@ -92,10 +96,10 @@ nav {
   /* justify-content: center; */
 }
 #number-2 {
-  background-color: #FF794E;
+  background-color: #ff794e;
 }
 #number-3 {
-  background-color: #405BEC;
+  background-color: #405bec;
 }
 .group-content {
   font-weight: 600;
@@ -104,4 +108,16 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 30px;
+}
+.card {
+  text-align: center;
+  background-color: #fff;
+}
+.service-title {
+  text-align: center;
+}
+.card-title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
 }
