@@ -209,21 +209,32 @@ body p {
     border-radius: 6px;
     margin-left: 40px;
     border: none;
+    cursor: pointer;
 }
 
 /* ------------------------------------------------------------------ */
 
 
 .footer {
-    background: #FFFBEF;
+    background-color: #FFFBEF;
     padding: 200px 10% 2px;
     margin-top: -200px;
 }
 
 .footer_top {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     border-bottom: 2px solid #121116; 
+}
+
+.footer_top h3 a {
+    text-decoration: none;
+}
+
+.footer_top nav a {
+    text-decoration: none;
+    padding-left: 10px;
 }
 
 .footer-bottom {
@@ -236,8 +247,6 @@ body p {
     color: #605D6C;
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
-    padding-right: 10px;
 }
 
 .footer-right {
@@ -246,5 +255,15 @@ body p {
 
 .footer-right img {
     margin-top: -10px;
+}
 
+.wrapper {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper li {
+    padding-left: 10px;
 }
