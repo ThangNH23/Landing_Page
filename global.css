@@ -85,7 +85,7 @@ nav {
   display: flex;
   gap: 18px;
 }
-.number {
+.numbers {
   border-radius: 29px;
   color: #fff;
   background-color: #ffc631;
